@@ -12,4 +12,4 @@ WORKDIR /app
 COPY ./app /app
 
 RUN adduser -D dockeruser
-USER dockeruser
+USER dockerus
